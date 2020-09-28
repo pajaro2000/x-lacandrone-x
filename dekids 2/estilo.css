@@ -1,0 +1,236 @@
+*{
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: red;
+    color:black;
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:40px;
+    color: red;
+}
+
+h1 strong{
+    color: rgb(0, 26, 255);
+}
+
+.header{
+    background-color: red;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.header a{
+    color:white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.header li{
+    height: inherit;
+}
+
+.inicio{
+    font-size: 30px;
+}
+.logo img{
+    width:40px;
+    display: flex;
+    margin-top: 5px;
+}
+
+.menu{
+    height: inherit;
+}
+
+ul{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+    display: flex;
+    height: inherit;
+}
+
+.principal{
+    background-image: url(img/jaguar\ piel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    padding:100px;
+}
+
+.principal img{
+    width: 400px;
+}.principal-boton{
+    width:250px;
+    height:50px;
+    background-color: #99cc00;
+    border-radius:24px;
+    border:none;
+    font-size:20px;
+    cursor:pointer;
+    margin-top:30px;
+}
+
+.somos{
+    background-color: rgb(255, 0, 0);
+    text-align:center;
+    font-size: 20px;
+}
+
+.somos h2{
+    color:greenyellow ;
+    margin-bottom: 10px;
+}
+.somos p{
+    margin-bottom: 20px;
+}
+/*
+.padre{
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+.hijo{
+background-color: orange;
+    width: 200px;
+    height: 200px;
+    border: 2px solid yellowgreen;
+    font-size: 30px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*/
+.hija img{
+img size: width: 100px; height: 200px;
+}
+
+.hijo img{
+   width: 70%;
+   margin-top: 10px;
+    }
+
+.padre{
+    display: flex;
+flex-direction: row;
+background-color: rgb(21, 255, 0);
+font-size: 20px;
+}
+.somos p strong{
+color: green;
+}
+.nieto img{
+width: 100px;
+}
+
+.nieto p{
+font-size: 5px;
+}
+
+.hijo{
+    background-color: rgb(0, 81, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+.hija{
+    padding: 20px;
+    text-align: center;
+}
+.row1-contacto img{
+    width: 100px;
+}
+.row2-contacto img{
+    width: 100px;
+}
+
+.grande{
+    display: flex;
+    background-color: rgb(0, 255, 0);
+    padding: 20px;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.col1-grande{
+ width: 400px;
+}
+.col2-grande{
+width: 200px;
+}
+
+.col3-grande{
+width: 300px;
+display: flexs;
+}
+
+footer{
+    img-size: 30px;
+}
+.row1-contacto img{
+    width: 35px;
+    height: 30px;
+}
+
+.row2-contacto img{
+    width: 30px;
+    height: 30px;
+}
+
+.row3-contacto img{
+    width: 30px;
+}
+
+.row1-contacto{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.row2-contacto{
+    display: flex;
+}
+
+.col4-redes img{
+width: 30px;
+
+height: 30px;
+}
+
+.col4-redes{
+    width: 300px;
+    justify-content: right;
+    padding-left: 100px;
+}
+.row1-contacto p{
+    padding-left: 10px;
+}
+
+.row2-contacto p{
+    padding-left: 10px;
+}
+
+.chico p{
+font-size: 20px;
+display: flex;
+justify-content: center;
+}
